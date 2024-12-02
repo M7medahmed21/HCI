@@ -1,0 +1,35 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+  width: 94px;
+  height: 24px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  flex-grow: 1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.15px;
+  color: #000000;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid orange;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.search-bar:hover .triangle {
+  transform: translateY(-5px);
+}

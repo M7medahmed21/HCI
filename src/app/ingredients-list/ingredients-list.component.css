@@ -1,0 +1,32 @@
+.ingredient-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ingredient-name {
+  margin-left: 10px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.ingredient-quantity {
+  margin-left: auto;
+}
+
+.ingredient-item:hover .ingredient-name::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid orange;
+  margin-left: 5px;
+  animation: moveTriangle 0.3s forwards;
+}
+
+@keyframes moveTriangle {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-5px); }
+}

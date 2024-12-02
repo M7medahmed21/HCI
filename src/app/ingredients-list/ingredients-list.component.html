@@ -1,0 +1,5 @@
+<div *ngFor="let ingredient of ingredients" class="ingredient-item">
+  <img [src]="'https://placeholder.pics/svg?' + ingredient.id" alt="{{ingredient.name}}" width="50" height="50" />
+  <span class="ingredient-name">{{ingredient.name}}</span>
+  <span class="ingredient-quantity">{{ingredient.quantity}}</span>
+</div>

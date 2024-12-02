@@ -1,0 +1,15 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+svg {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+svg:hover {
+  transform: scale(1.2);
+}
