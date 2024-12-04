@@ -1,12 +1,24 @@
 .container {
   display: flex;
-  height: 100vh;
+  height: auto;
+  flex-direction: row;
   background-color: #f5f5f5;
 }
 .content {
   flex-grow: 1;
-  padding: 20px;
+  height: 80%;
+  width: 110vh;
+  padding: 0;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
+.after-container {
+  margin-top: 20px; /* Add some space between the container and the next element */
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+

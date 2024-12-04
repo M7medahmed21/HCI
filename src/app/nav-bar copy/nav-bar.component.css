@@ -1,6 +1,6 @@
 .navigation-container {
   border-radius: 0 0 0 10px;
-  max-width: 279px;
+  max-width: 300px;
   color: #000;
   font: 600 12px Inter, sans-serif;
 }
@@ -10,7 +10,7 @@
   background-color: #eae9e9;
   width: 100%;
   padding: 34px 0;
-  margin-left: 25px;
+
 }
 
 .profile-image {
